@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+}
+
+main {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 5%;
+    border: 5px double blue;
+    background: linear-gradient(silver, pink);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+#img-frame {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.text-body {
+    width: auto;
+    height: auto;
+}
+
+h1 {
+    color: red;
+    text-shadow: 0.5px 1px 0px 5px;
+}
+
+p {
+    font-size: 26px;
+}
